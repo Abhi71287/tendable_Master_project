@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.tend.qa.testcases.LandingPageTest">
+        <methods>
+          <include name="verify_Request_Demo_Button_Is_Enable_And_Clickable_On_Each_Of_The_Aforementioned_Top_Level_Menu_pages"/>
+          <include name="tearDown"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.tend.qa.testcases.LandingPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

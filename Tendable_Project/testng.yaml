@@ -1,0 +1,8 @@
+name: Suite
+configFailurePolicy: skip
+tests:
+  - name: Test
+  classes:
+    - com.tend.qa.testcases.ContactPageTest
+    - com.tend.qa.testcases.LandingPageTest
+
